@@ -1,0 +1,12 @@
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\ApiHelper\bin\Debug\net6.0\ApiHelper.deps.json
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\ApiHelper\bin\Debug\net6.0\ApiHelper.dll
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\ApiHelper\bin\Debug\net6.0\ApiHelper.pdb
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\ApiHelper\obj\Debug\net6.0\ApiHelper.csproj.AssemblyReference.cache
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\ApiHelper\obj\Debug\net6.0\ApiHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\ApiHelper\obj\Debug\net6.0\ApiHelper.AssemblyInfoInputs.cache
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\ApiHelper\obj\Debug\net6.0\ApiHelper.AssemblyInfo.cs
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\ApiHelper\obj\Debug\net6.0\ApiHelper.csproj.CoreCompileInputs.cache
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\ApiHelper\obj\Debug\net6.0\ApiHelper.dll
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\ApiHelper\obj\Debug\net6.0\refint\ApiHelper.dll
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\ApiHelper\obj\Debug\net6.0\ApiHelper.pdb
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\ApiHelper\obj\Debug\net6.0\ref\ApiHelper.dll

@@ -1,0 +1,11 @@
+C:\LevelUp\SET\DotNet\SETPractice\DesignPattern\bin\Debug\net6.0\DesignPattern.deps.json
+C:\LevelUp\SET\DotNet\SETPractice\DesignPattern\bin\Debug\net6.0\DesignPattern.dll
+C:\LevelUp\SET\DotNet\SETPractice\DesignPattern\bin\Debug\net6.0\DesignPattern.pdb
+C:\LevelUp\SET\DotNet\SETPractice\DesignPattern\obj\Debug\net6.0\DesignPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\LevelUp\SET\DotNet\SETPractice\DesignPattern\obj\Debug\net6.0\DesignPattern.AssemblyInfoInputs.cache
+C:\LevelUp\SET\DotNet\SETPractice\DesignPattern\obj\Debug\net6.0\DesignPattern.AssemblyInfo.cs
+C:\LevelUp\SET\DotNet\SETPractice\DesignPattern\obj\Debug\net6.0\DesignPattern.csproj.CoreCompileInputs.cache
+C:\LevelUp\SET\DotNet\SETPractice\DesignPattern\obj\Debug\net6.0\DesignPattern.dll
+C:\LevelUp\SET\DotNet\SETPractice\DesignPattern\obj\Debug\net6.0\refint\DesignPattern.dll
+C:\LevelUp\SET\DotNet\SETPractice\DesignPattern\obj\Debug\net6.0\DesignPattern.pdb
+C:\LevelUp\SET\DotNet\SETPractice\DesignPattern\obj\Debug\net6.0\ref\DesignPattern.dll

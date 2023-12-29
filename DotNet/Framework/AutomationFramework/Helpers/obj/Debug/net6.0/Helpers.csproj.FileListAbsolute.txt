@@ -1,0 +1,15 @@
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\Helpers\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\Helpers\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\Helpers\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\Helpers\bin\Debug\net6.0\Helpers.deps.json
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\Helpers\bin\Debug\net6.0\Helpers.dll
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\Helpers\bin\Debug\net6.0\Helpers.pdb
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\Helpers\obj\Debug\net6.0\Helpers.csproj.AssemblyReference.cache
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\Helpers\obj\Debug\net6.0\Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\Helpers\obj\Debug\net6.0\Helpers.AssemblyInfoInputs.cache
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\Helpers\obj\Debug\net6.0\Helpers.AssemblyInfo.cs
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\Helpers\obj\Debug\net6.0\Helpers.csproj.CoreCompileInputs.cache
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\Helpers\obj\Debug\net6.0\Helpers.dll
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\Helpers\obj\Debug\net6.0\refint\Helpers.dll
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\Helpers\obj\Debug\net6.0\Helpers.pdb
+C:\LevelUp\SET\DotNet\Framework\AutomationFramework\Helpers\obj\Debug\net6.0\ref\Helpers.dll

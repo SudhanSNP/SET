@@ -1,0 +1,11 @@
+C:\LevelUp\SET\DotNet\SETPractice\CSharpPractice\bin\Debug\net6.0\CSharpPractice.deps.json
+C:\LevelUp\SET\DotNet\SETPractice\CSharpPractice\bin\Debug\net6.0\CSharpPractice.dll
+C:\LevelUp\SET\DotNet\SETPractice\CSharpPractice\bin\Debug\net6.0\CSharpPractice.pdb
+C:\LevelUp\SET\DotNet\SETPractice\CSharpPractice\obj\Debug\net6.0\CSharpPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\LevelUp\SET\DotNet\SETPractice\CSharpPractice\obj\Debug\net6.0\CSharpPractice.AssemblyInfoInputs.cache
+C:\LevelUp\SET\DotNet\SETPractice\CSharpPractice\obj\Debug\net6.0\CSharpPractice.AssemblyInfo.cs
+C:\LevelUp\SET\DotNet\SETPractice\CSharpPractice\obj\Debug\net6.0\CSharpPractice.csproj.CoreCompileInputs.cache
+C:\LevelUp\SET\DotNet\SETPractice\CSharpPractice\obj\Debug\net6.0\CSharpPractice.dll
+C:\LevelUp\SET\DotNet\SETPractice\CSharpPractice\obj\Debug\net6.0\refint\CSharpPractice.dll
+C:\LevelUp\SET\DotNet\SETPractice\CSharpPractice\obj\Debug\net6.0\CSharpPractice.pdb
+C:\LevelUp\SET\DotNet\SETPractice\CSharpPractice\obj\Debug\net6.0\ref\CSharpPractice.dll

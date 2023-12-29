@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RSpf562G+xS175g1RkMDk7yObfXHbx21XGMfck8wTd2ZX1BK8H175k6lSh1vA1nuRJP6kK6qB4Ete+PuLDJozA==",
+  "success": true,
+  "projectFilePath": "C:\\LevelUp\\SET\\DotNet\\Framework\\AutomationFramework\\ApiHelper\\ApiHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Sudhan_Sankara_Naray\\.nuget\\packages\\restsharp\\107.3.0\\restsharp.107.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

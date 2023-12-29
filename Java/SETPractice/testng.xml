@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    This section is used to group the tests    -->
+<!--    <groups>-->
+<!--        <run>-->
+<!--            <include name="design-pattern"/>-->
+<!--        </run>-->
+<!--    </groups>-->
+<!--    <parameter name="msg1" value="This is message 1"/>-->
+<!--    <parameter name="msg2" value="This is message 2"/>-->
+<!--    <test name="GroupingTests">-->
+<!--        <classes>-->
+<!--            <class name="DesignPatternTests.BuilderPatternTests"/>-->
+<!--            <class name="DesignPatternTests.FactoryPatternTests"/>-->
+<!--            <class name="DesignPatternTests.SingletonPatternTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--    <test name="ParameterTests">-->
+<!--        <parameter name="msg1" value="This is another message 1"/>-->
+<!--        <parameter name="msg2" value="This is another message 2"/>-->
+<!--        <classes>-->
+<!--            <class name="DesignPatternTests.SingletonPatternTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <listeners>
+        <listener class-name="DesignPatternTests.TestListeners"></listener>
+    </listeners>
+    <test name="ListenersTest">
+        <classes>
+            <class name="DesignPatternTests.FactoryPatternTests" />
+            <class name="DesignPatternTests.SingletonPatternTests" />
+            <class name="DesignPatternTests.BuilderPatternTests" />
+            <class name="DesignPatternTests.FacadePatternTests" />
+            <class name="DesignPatternTests.DecoratorPatternTests" />
+        </classes>
+    </test>
+</suite>
