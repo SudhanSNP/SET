@@ -1887,6 +1887,12 @@
           "buildTransitive/Selenium.WebDriver.targets": {}
         }
       },
+      "Selenium.WebDriver.ChromeDriver/120.0.6099.10900": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
       "SeleniumExtras.WaitHelpers/1.0.2": {
         "type": "package",
         "dependencies": {
@@ -5659,6 +5665,29 @@
         "manager/windows/selenium-manager.exe",
         "selenium.webdriver.4.16.2.nupkg.sha512",
         "selenium.webdriver.nuspec"
+      ]
+    },
+    "Selenium.WebDriver.ChromeDriver/120.0.6099.10900": {
+      "sha512": "wCOew6C9ABCRK59DdzdJyoQKmVQEUrVQEvoDQdhnLWpW1OkFKG5pd9EK6B3j2vcqdNTBNM6++tAOhBMFezHm3w==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/120.0.6099.10900",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/DefinePropertiesChromeDriver.targets",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/LICENSE.chromedriver",
+        "driver/linux64/chromedriver",
+        "driver/mac64/LICENSE.chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/mac64arm/LICENSE.chromedriver",
+        "driver/mac64arm/chromedriver",
+        "driver/win32/LICENSE.chromedriver",
+        "driver/win32/chromedriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.chromedriver.120.0.6099.10900.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
       ]
     },
     "SeleniumExtras.WaitHelpers/1.0.2": {
@@ -10282,6 +10311,7 @@
       "NUnit.Analyzers >= 3.6.1",
       "NUnit3TestAdapter >= 4.5.0",
       "Pages >= 1.0.0",
+      "Selenium.WebDriver.ChromeDriver >= 120.0.6099.10900",
       "coverlet.collector >= 3.2.0"
     ]
   },
@@ -10346,6 +10376,10 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[4.5.0, )"
+          },
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[120.0.6099.10900, )"
           },
           "coverlet.collector": {
             "target": "Package",
