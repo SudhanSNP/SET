@@ -44,7 +44,7 @@ namespace Helpers.Drivers
 //            chromeOptions.AddArgument("--headless");
             chromeOptions.AddArgument("ignore-certificate-errors");
             chromeOptions.PlatformName = "linux";
-            this.driver = new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub"), chromeOptions);
+            this.driver = new RemoteWebDriver(new Uri("http://13.233.19.136:4444/wd/hub"), chromeOptions);
         }
     }
 }
