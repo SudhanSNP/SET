@@ -37,7 +37,16 @@ namespace Helpers.Drivers
 
         public void SetDriver()
         {
-            this.driver = new ChromeDriver();
+            String driverPath = $"{Directory.GetCurrentDirectory()}\\drivers";
+            String driverExecutableFileName = "chromedriver";
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.AddArgument("--disable-dev-shm-usage");
+            chromeOptions.AddArgument("--no-sandbox");
+            chromeOptions.AddArgument("--headless");
+            chromeOptions.AddArgument("ignore-certificate-errors");
+            chromeOptions.AddAdditionalOption("platform", "LINUX");
+            ChromeDriverService service = ChromeDriverService.CreateDefaultService(driverPath, driverExecutableFileName);
+            this.driver = new ChromeDriver(service, chromeOptions);
         }
     }
 }
