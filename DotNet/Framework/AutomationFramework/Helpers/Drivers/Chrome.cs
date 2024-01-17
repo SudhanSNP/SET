@@ -44,7 +44,7 @@ namespace Helpers.Drivers
             // chromeOptions.AddArgument("--headless");
             chromeOptions.AddArgument("ignore-certificate-errors");
             // chromeOptions.PlatformName = "linux";
-            this.driver = new ChromeDriver(chromeOptions);
+            this.driver = new ChromeDriver(Directory.GetCurrentDirectory(), chromeOptions);
         }
     }
 }
