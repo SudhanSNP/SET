@@ -41,10 +41,10 @@ namespace Helpers.Drivers
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.AddArgument("--disable-dev-shm-usage");
             chromeOptions.AddArgument("--no-sandbox");
-//            chromeOptions.AddArgument("--headless");
+            // chromeOptions.AddArgument("--headless");
             chromeOptions.AddArgument("ignore-certificate-errors");
-            chromeOptions.PlatformName = "linux";
-            this.driver = new RemoteWebDriver(new Uri("http://13.233.19.136:4444/wd/hub"), chromeOptions);
+            // chromeOptions.PlatformName = "linux";
+            this.driver = new ChromeDriver(chromeOptions);
         }
     }
 }
