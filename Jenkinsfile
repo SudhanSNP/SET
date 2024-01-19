@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('api-test') {
             agent{
-                label 'master'
+                label 'linux'
             }
             steps {
                 echo 'Build started...'
