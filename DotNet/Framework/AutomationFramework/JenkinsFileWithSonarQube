@@ -1,0 +1,32 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('SCM') {
+            agent{
+                label 'windows'
+            }
+            steps {
+                echo 'Cloning started...'
+                git credentialsId: 'Github Credential', url: 'https://github.com/SudhanSNP/SET.git'
+                echo 'Cloning completed...'
+            }
+        }
+        stage('Sonar Scan') {
+            agent{
+                label 'windows'
+            }
+            steps {
+                withSonarQubeEnv(installationName: 'SonarQube', credentialsId: 'SonarQubeToken') {
+                    withDotNet(sdk: 'dotnet') {
+                        // bat 'dotnet tool install --global dotnet-sonarscanner'
+                        bat 'dotnet sonarscanner begin /k:"sample-test-project" /d:sonar.host.url="http://localhost:9000"  /d:sonar.token="sqp_4a17039076db7c467925a1d3ff5f31900d7e853c"'
+                        bat 'dotnet build DotNet/Framework/AutomationFramework/AutomationFramework.sln -p:WarningLevel=0'
+                        bat 'dotnet sonarscanner end /d:sonar.token="sqp_4a17039076db7c467925a1d3ff5f31900d7e853c"'
+                    }
+                }
+                waitForQualityGate abortPipeline: true, credentialsId: 'SonarQubeToken'
+            }
+        }
+    }
+}
